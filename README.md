@@ -1,6 +1,8 @@
 # Project-5 - The Conflict in Yemen: Predicting Civilian Casualties
 Team: Max Bermont, Eileen Hartnett, Garrett Nelson
 
+![Yemen Map](./images/yemen_map.png)
+
 ### Contents:
 - [Problem Statement](#Problem-Statement)
 - [Background](#Background)
@@ -70,11 +72,24 @@ The following link is from the Yemen Data Project, explaining their methodology 
 
 
 ### Project Repo Contents
-- [Data Import & Cleaning](./Paterson_project_1_sat_act.ipynb#Data-Import-and-Cleaning)
+- [Raw Data](./data/raw_yemen_data.csv)
+- [Clean Data](./data/clean_df.csv)
+- [Data Cleaning Notebook](./main_notebooks/data_clean.ipynb)
+- [EDA Notebook](./main_notebooks/eda_notebook.ipynb)
+- [Modeling Notebook - Neural Network](./main_notebooks/modeling_neural_network_casualties.ipynb)
+- [Modeling Notebook - ARIMA](./main_notebooks/modeling_arima.ipynb)
+- [Modeling Notebook - Neural Network looking at Governorate](./main_notebooks/modeling_neural_network_governorate.ipynb)
+- [Modeling Notebook - Random Forest](./main_notebooks/modeling_random_forest.ipynb)
+- [Plots and Images](./images)
 
 
 
 ### Conclusions and Recommendations
+- We used a neural network model to predict the number of casualties in order to appropriately allocate aid as real time information on the ground may not be that accurate in the midst of a crisis.  
+
+- Based on the data provided we are able to predict the number of casualties based on location hit with approximately 90% accuracy.
+
+- We would recommend further research to look at the impact of landmines and IEDs on the number of casualties in order to improve accuracy in predicting aid allocation.
 
 
 
