@@ -72,16 +72,19 @@ The following link is from the Yemen Data Project, explaining their methodology 
 
 
 ### Project Repo Contents
+**Main Contents:**
 - [Raw Data](./data/raw_yemen_data.csv)
 - [Clean Data](./data/clean_df.csv)
 - [Data Cleaning Notebook](./main_notebooks/data_clean.ipynb)
 - [EDA Notebook](./main_notebooks/eda_notebook.ipynb)
 - [Modeling Notebook - Neural Network](./main_notebooks/modeling_neural_network_casualties.ipynb)
+- [Plots and Images](./images)
+
+**Appendix:**
+We explored a few other models in the following notebooks:
 - [Modeling Notebook - ARIMA](./main_notebooks/modeling_arima.ipynb)
 - [Modeling Notebook - Neural Network looking at Governorate](./main_notebooks/modeling_neural_network_governorate.ipynb)
 - [Modeling Notebook - Random Forest](./main_notebooks/modeling_random_forest.ipynb)
-- [Plots and Images](./images)
-
 
 
 ### Conclusions and Recommendations
