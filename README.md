@@ -57,9 +57,9 @@ Before running the notebooks below you can find the software requirements here: 
 **Appendix:**
 
 We explored a few other models in the following notebooks
-- [Modeling Notebook - ARIMA](./main_notebooks/modeling_arima.ipynb)
-- [Modeling Notebook - Neural Network looking at Governorate](./main_notebooks/modeling_neural_network_governorate.ipynb)
-- [Modeling Notebook - Random Forest](./main_notebooks/modeling_random_forest.ipynb)
+- [Modeling Notebook - ARIMA](./modeling_notebooks_additional/modeling_arima.ipynb)
+- [Modeling Notebook - Neural Network looking at Governorate](./modeling_notebooks_additional/modeling_neural_network_governorate.ipynb)
+- [Modeling Notebook - Random Forest](./modeling_notebooks_additional/modeling_random_forest.ipynb)
 
 ### Data Dictionary
 
