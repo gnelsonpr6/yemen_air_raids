@@ -1,7 +1,7 @@
 # Project-5
 
 |Feature|Data type|Description|
-|---|---|
+|---|---|---|
 |incident_id|int64|Unique Identifier|
 |governorate|object|City attacked|
 |district|object|District in City|
