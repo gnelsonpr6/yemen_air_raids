@@ -15,9 +15,9 @@ Using an open source dataset produced by The Yemen Data Project, **we aim to bui
 - [Problem Statement](#Problem-Statement)
 - [Background](#Background)
 - [Executive Summary](#Executive-Summary)
-- [Data Source](#Data-Source)
-- [Data Dictionary](#Data-Dictionary)
 - [Project Repo Contents](#Project-Repo-Contents)
+- [Data Dictionary](#Data-Dictionary)
+- [Data Source](#Data-Source)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 - [References](#References)
 
