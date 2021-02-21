@@ -40,7 +40,7 @@ Insecurity and access constraints also prevented us—and other organizations—
 The project consists of three main notebooks: 
 - The **data_clean.ipynb** notebook begins by importing and cleaning data downloaded from the data yemen project (more information on our data source below). Data cleaning involved renaming columns in a pythonic format, looking at value counts within columns, cleaning values within cells, looking at where we had null values and imputing nulls with either the mean or median if it made sense or with ‘unknown’ if categorical. We saved the cleaned data to the clean_df.csv file.
 - The **eda_notebook.ipynb** notebook visually explores the relationships between the variables and the target.
-- The **modeling_neural_network_casualties.ipynb**  notebook we build a recurrent neural network that will predict civilian casualties of the Yemen conflict, when knowing the location of an air raid. 
+- The **modeling_neural_network_casualties.ipynb**  notebook we build a regressive neural network that will predict civilian casualties of the Yemen conflict, when knowing the location of an air raid. 
 
 ### Project Repo Contents
 **Main Contents:**
@@ -137,5 +137,3 @@ https://www.npr.org/2021/02/08/965497266/critic-of-u-s-role-in-yemen-responds-to
 https://interactive.aljazeera.com/aje/2018/Saudi-Arabia-air-raids-on-Yemen/index.html#2019
 
 https://www.doctorswithoutborders.org/what-we-do/countries/yemen#How%20we%E2%80%99re%20helping%20people%20caught%20in%20Yemen%E2%80%99s%20humanitarian%20crisis
-
-
