@@ -82,7 +82,7 @@ The following link is from the Yemen Data Project, explaining their methodology 
 
 **Appendix:**
 
-We explored a few other models in the following notebooks:\
+We explored a few other models in the following notebooks
 - [Modeling Notebook - ARIMA](./main_notebooks/modeling_arima.ipynb)
 - [Modeling Notebook - Neural Network looking at Governorate](./main_notebooks/modeling_neural_network_governorate.ipynb)
 - [Modeling Notebook - Random Forest](./main_notebooks/modeling_random_forest.ipynb)
