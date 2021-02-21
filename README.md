@@ -37,7 +37,10 @@ Insecurity and access constraints also prevented us—and other organizations—
 
 ### Executive Summary
 
-
+The project consists of three main notebooks: 
+- The **data_clean.ipynb** notebook begins by importing and cleaning data downloaded from the data yemen project (more information on our data source below). Data cleaning involved renaming columns in a pythonic format, looking at value counts within columns, cleaning values within cells, looking at where we had null values and imputing nulls with either the mean or median if it made sense or with ‘unknown’ if categorical. We saved the cleaned data to the clean_df.csv file.
+- The **eda_notebook.ipynb** notebook visually explores the relationships between the variables and the target.
+- The **modeling_neural_network_casualties.ipynb**  notebook we build a recurrent neural network that will predict civilian casualties of the Yemen conflict, when knowing the location of an air raid. 
 
 ### Project Repo Contents
 **Main Contents:**
@@ -91,12 +94,11 @@ The dataset lists the date of incident, geographical location, type of target, t
 
 Given the open source collection of the data, geolocation information of air raids is not available. However, location details are broken down from governorate to district and then area.
 
-
 **Data Collection Methodology:** 
 
 The following text is from the Yemen Data Project, explaining their methodology for collecting air raid and civilian casualty data: https://yemendataproject.org/methodology-1.html
 
-Air raids
+**Air raids**
 The data has been collected through open sources and cross-referenced using a wide range of information. These include local and international news agencies and media reports; social media accounts, including Twitter, Facebook, YouTube, and other video footage, and WhatsApp; reports from international and national NGOs; official records from local authorities; and reports by international human rights groups. Where independent reporting is not available, the data has been cross-referenced with sources from opposing sides to the conflict as to ensure the reporting is as accurate and impartial as possible.
 
 The dataset lists target category and subcategory for each incident, apart from incidents where no information on the target is available. The target category chosen for each incident refers to the original use of the target, e.g. a school hit by an airstrike is referred to as a school building, with no further assessment on its use at the time of the airstrike or the circumstances that led to the airstrike.
@@ -105,12 +107,12 @@ As the data is collected using open sources and as there is a general lack of tr
 
 The data has been collected with the purpose of creating a statistical overview of the impact of the aerial bombardments in Yemen, especially in regard to geographical spread and its targeting.
 
-Air Strikes v Air Raids
+**Air Strikes v Air Raids**
 In YDP's data, an air raid refers to one incident. One air raid incident includes all air strikes on a single location within approximately one hour and therefore may comprise multiple airstrikes. Air strikes per air raid can vary greatly from a couple to several dozen per air raid. Due to the variations in quality of information on air strike counts and the challenges of verifying each individual strike on a single target or location, an air raid in YDP data, therefore, presents the most conservative estimate.
 
 The required minimum for a recorded air raid incident is one airstrike. The maximum is the unverified number of air strikes, which is also noted in the details of the data. This unverified number of air strikes ranges from minimum airstrikes: 19,511 to maximum airstrikes: 45,563 for the first four years of the air campaign.
 
-Civilian casualties
+**Civilian casualties**
 Casualty figures are a best estimate of numbers and are presented in good faith. YDP recognizes the limitations in the accuracy of the figures. Open source reporting of casualty numbers is often scarce or biased. Locations of bombings can be in very remote areas, or with limited access to multiple or independent sources that results in open source reporting of significantly different casualty numbers for the same incident. The process of the civilian casualty data collation includes in-depth research into incidents with civilian casualties, reviewing video material, published lists of victim names and cross-referencing with human rights groups and other entities collecting data on civilian casualties.
 
 The research process is as meticulous as possible, and to remove bias or inflation in casualty numbers, the lowest reported casualty number is recorded in the data, unless verified numbers from human rights groups on the ground are available, in which case they are used. This means that the civilian casualty data we present is the least civilian casualties reported from airstrikes.
