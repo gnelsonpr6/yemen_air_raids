@@ -33,7 +33,7 @@ The following text is from the [Doctors Without Borders website](https://www.doc
 
 As an organization providing medical aid to people in Yemen, MSF worked in 13 hospitals and health centers and provided support to more than 20 health facilities across 12 governorates in 2018. However, repeated attacks on medical staff and structures during the year forced us to suspend activities in several areas.
 
-Insecurity and access constraints also prevented us—and other organizations—from collecting reliable data on the nutritional and humanitarian needs across the country. Our teams treated 5,700 children for malnutrition across Hajjah, Sa’ada, Amran, Ibb, and Taiz governorates, but saw no signs of impending famine—contrary to what the UN and others were suggesting.
+Insecurity and access constraints also prevented us—and other organizations—from collecting reliable data on the nutritional and humanitarian needs across the country.
 
 ### Executive Summary
 
@@ -43,6 +43,9 @@ The project consists of three main notebooks:
 - The **modeling_neural_network_casualties.ipynb**  notebook we build a regressive neural network that will predict civilian casualties of the Yemen conflict, when knowing the location of an air raid. 
 
 ### Project Repo Contents
+
+Before running the notebooks below you can find the software requirements here: [requirements file](requirements.txt)
+
 **Main Contents:**
 - [Raw Data](./data/raw_yemen_data.csv)
 - [Clean Data](./data/clean_df.csv)
