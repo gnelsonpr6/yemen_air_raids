@@ -1,4 +1,4 @@
-# Project-5 - The Conflict in Yemen: Predicting Civilian Casualties
+# The Conflict in Yemen: Predicting Civilian Casualties
 Team: Max Bermont, Eileen Hartnett, Garrett Nelson
 
 ![Yemen Map](./images/yemen_map.png)
