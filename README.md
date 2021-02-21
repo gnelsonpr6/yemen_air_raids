@@ -3,15 +3,6 @@ Team: Max Bermont, Eileen Hartnett, Garrett Nelson
 
 ![Yemen Map](./images/yemen_map.png)
 
-### Contents:
-- [Problem Statement](#Problem-Statement)
-- [Background](#Background)
-- [Data Source](#Data-Source)
-- [Data Dictionary](#Data-Dictionary)
-- [Project Repo Contents](#Project-Repo-Contents)
-- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
-- [References](#References)
-
 ### Problem Statement 
 
 Yemen is currently experiencing one of the world’s worst humanitarian crises. More than three and a half million people have been displaced by the ongoing conflict. Millions of people depend on humanitarian assistance for survival.
@@ -19,6 +10,16 @@ Yemen is currently experiencing one of the world’s worst humanitarian crises. 
 Doctors Without Borders/Médecins Sans Frontières (MSF) has treated over 119,000 people with injuries related to the war since March 2015. However, insecurity and access constraints prevented them from collecting reliable data on the humanitarian needs across the country.
 
 Using an open source dataset produced by The Yemen Data Project, **we aim to build a model that predicts the number of civilian casualties to expect if a certain area is attacked.** This information will provide a more accurate prediction of how much aid to allocate towards medical resources, funding, and personnel based on location of the attack.  
+
+### Contents:
+- [Problem Statement](#Problem-Statement)
+- [Background](#Background)
+- [Executive Summary](#Executive-Summary)
+- [Data Source](#Data-Source)
+- [Data Dictionary](#Data-Dictionary)
+- [Project Repo Contents](#Project-Repo-Contents)
+- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
+- [References](#References)
 
 ### Background:
 
@@ -33,6 +34,26 @@ The following text is from the [Doctors Without Borders website](https://www.doc
 As an organization providing medical aid to people in Yemen, MSF worked in 13 hospitals and health centers and provided support to more than 20 health facilities across 12 governorates in 2018. However, repeated attacks on medical staff and structures during the year forced us to suspend activities in several areas.
 
 Insecurity and access constraints also prevented us—and other organizations—from collecting reliable data on the nutritional and humanitarian needs across the country. Our teams treated 5,700 children for malnutrition across Hajjah, Sa’ada, Amran, Ibb, and Taiz governorates, but saw no signs of impending famine—contrary to what the UN and others were suggesting.
+
+### Executive Summary
+
+
+
+### Project Repo Contents
+**Main Contents:**
+- [Raw Data](./data/raw_yemen_data.csv)
+- [Clean Data](./data/clean_df.csv)
+- [Data Cleaning Notebook](./main_notebooks/data_clean.ipynb)
+- [EDA Notebook](./main_notebooks/eda_notebook.ipynb)
+- [Modeling Notebook - Neural Network](./main_notebooks/modeling_neural_network_casualties.ipynb)
+- [Plots and Images](./images)
+
+**Appendix:**
+
+We explored a few other models in the following notebooks
+- [Modeling Notebook - ARIMA](./main_notebooks/modeling_arima.ipynb)
+- [Modeling Notebook - Neural Network looking at Governorate](./main_notebooks/modeling_neural_network_governorate.ipynb)
+- [Modeling Notebook - Random Forest](./main_notebooks/modeling_random_forest.ipynb)
 
 
 ### Data Source
@@ -71,30 +92,12 @@ The following link is from the Yemen Data Project, explaining their methodology 
 |time_of_day|object|morning, afternoon, or night|
 
 
-### Project Repo Contents
-**Main Contents:**
-- [Raw Data](./data/raw_yemen_data.csv)
-- [Clean Data](./data/clean_df.csv)
-- [Data Cleaning Notebook](./main_notebooks/data_clean.ipynb)
-- [EDA Notebook](./main_notebooks/eda_notebook.ipynb)
-- [Modeling Notebook - Neural Network](./main_notebooks/modeling_neural_network_casualties.ipynb)
-- [Plots and Images](./images)
-
-**Appendix:**
-
-We explored a few other models in the following notebooks
-- [Modeling Notebook - ARIMA](./main_notebooks/modeling_arima.ipynb)
-- [Modeling Notebook - Neural Network looking at Governorate](./main_notebooks/modeling_neural_network_governorate.ipynb)
-- [Modeling Notebook - Random Forest](./main_notebooks/modeling_random_forest.ipynb)
-
-
 ### Conclusions and Recommendations
 - We used a neural network model to predict the number of casualties in order to appropriately allocate aid as real time information on the ground may not be that accurate in the midst of a crisis.  
 
 - Based on the data provided we are able to predict the number of casualties based on location hit with approximately 90% accuracy.
 
 - We would recommend further research to look at the impact of landmines and IEDs on the number of casualties in order to improve accuracy in predicting aid allocation.
-
 
 
 
