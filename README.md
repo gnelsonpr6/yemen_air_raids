@@ -28,7 +28,7 @@ The conflict in Yemen, involving a civil war, and the involvement of foreign act
 
 Doctors Without Borders/Médecins Sans Frontières (MSF) medical projects in Yemen are among their biggest worldwide. 
 
-The following text is from the [Doctors Without Borders](https://www.doctorswithoutborders.org/what-we-do/countries/yemen#How%20we%E2%80%99re%20helping%20people%20caught%20in%20Yemen%E2%80%99s%20humanitarian%20crisis)
+The following text is from the [Doctors Without Borders website](https://www.doctorswithoutborders.org/what-we-do/countries/yemen#How%20we%E2%80%99re%20helping%20people%20caught%20in%20Yemen%E2%80%99s%20humanitarian%20crisis)
 
 As an organization providing medical aid to people in Yemen, MSF worked in 13 hospitals and health centers and provided support to more than 20 health facilities across 12 governorates in 2018. However, repeated attacks on medical staff and structures during the year forced us to suspend activities in several areas.
 
